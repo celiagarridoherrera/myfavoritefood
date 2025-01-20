@@ -1,0 +1,176 @@
+$primary-size: 40px;
+$secondly-size: 30px;
+$small-size: 14px;
+$text-color: white;
+$margin-medium: 49px;
+$background-items: rgba(139, 0, 0, 0.841);
+$primary-font: 'Arill', sans-serif;
+
+body{
+    background-color: rgb(0, 66, 0);
+    color: white;
+    margin: 0;
+    font-family: $primary-font;
+
+        header {
+
+             h1{
+                 font-size: $secondly-size;
+                 margin-left: $margin-medium;
+                 margin-bottom: 52px;
+                 margin-top: $margin-medium;
+               }
+
+            .banner{
+                 width: 100%;
+                 height: 284px;
+                 object-fit: cover;
+                 position: relative;
+                 z-index: 2;
+                 }
+            }
+    main{
+
+         .content{
+                 display: flex;
+                 align-items: center;
+
+            .ingredients{
+                position: relative;
+                 background-color: $background-items;
+                 width: 550px;
+                 height: 387px;
+                 border-radius: 35px;
+                 margin-left: $margin-medium;
+                 margin-top: -68px;
+                 display: flex; // Activa flexbox para el contenido interno
+                 flex-direction: column; // Organiza el contenido en columna
+                 justify-content: center;                
+
+                h2{
+                 font-size: $primary-size;
+                 margin-left: 36px;
+                }
+
+                 .ingredients-list{
+                 margin-left: 36px;
+                 display: grid;
+                 grid-template-columns: repeat(2, 1fr); 
+                 grid-template-rows: repeat(4, 1fr);
+
+                     label{
+                     font-size: $secondly-size;
+                          }
+                }
+                 }
+
+            .time{
+                margin-left: 77px;
+            
+               
+             h2{
+                 font-size: $primary-size;
+                
+            }
+
+             .clock{
+                 font-size: 36px;
+                 object-fit: cover;
+                 margin-left: 6px;
+                 margin-top: 30px;
+                 margin-bottom: 62px;;
+            }
+
+             .hourglass{
+             font-size: 36px;
+             object-fit: cover;
+             margin-left: 9px;
+            }
+
+            .timer{
+            font-size: $primary-font;
+            }
+            }}
+
+         .preparation{
+            
+            .preparation-title{
+             font-size: $primary-size;
+             margin-left: $margin-medium;
+             margin-top: 67px;
+
+            }
+            
+            .steps{
+             display: grid;
+             grid-template-columns: repeat(2, 1fr); // Dos columnas iguales
+             grid-template-rows: repeat(2, auto);   // Dos filas con altura automática 
+             margin-left: 55px;
+
+                 .step{
+                 display: inline-flex;
+                 
+
+                     h3{
+                     font-size: $secondly-size;
+                     background-color: $background-items;
+                     border-radius: 5px;
+                     width: 40px;
+                     height: 45px;
+                     text-align: center;
+                     align-content: center;
+                     }
+
+                     p{
+                     font-size: $small-size;
+                     margin-left: 33px;
+                     width: 317px;
+                     height: 169px;
+                     text-align:left;
+                     align-content:start;
+                     }
+                }
+            }
+        }
+    }
+
+     footer{
+         width: 100%;
+         height: 56px;
+         display: inline-flex;
+         justify-content: space-between;
+         align-items: center;
+         background-color: $background-items;
+         color: white;
+         font-size: $small-size;
+         margin-top: 56px;
+        
+         .footer-copyright{
+         font-size: $small-size;
+         margin-left: $margin-medium;
+         }
+
+         .footer-icons{
+         font-size: 24px;
+         margin-right: 50px;
+
+             #lk{
+                padding-left: 27px;
+             }
+
+             #fb{
+                padding-left: 27px;
+             }
+
+             #ig{
+                padding-left: 27px;
+             }
+
+             #tiktok{
+                padding-left: 27px;
+             }
+
+         }
+    
+    }
+}
