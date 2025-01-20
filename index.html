@@ -1,11 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Favorite Food</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    
+    <header>
+        <h1>Pote Asturiano</h1>
+        <img class="banner" src="src/PoteAsturiano.jpg" alt="Pote Asturiano">
+    </header>
+
+    <main>
+        <section class="content">
+        <div class="ingredients">
+            <h2>INGREDIENTS</h2>
+            <div class="ingredients-list">
+              <label><input type="checkbox"> Fabes</label>
+              <label><input type="checkbox"> Berzas</label>
+              <label><input type="checkbox"> Patatas</label>
+              <label><input type="checkbox"> Chorizo</label>
+              <label><input type="checkbox"> Morcilla</label>
+              <label><input type="checkbox"> Lacón</label>
+              <label><input type="checkbox"> Jamón</label>
+              <label><input type="checkbox"> Ajo</label>
+            </div>
+        </div>
+
+        <aside class="time">
+            <h2>Time</h2>
+            <div class="clock">
+                <i class="fa-regular fa-clock"></i>
+                <span class="timer">02:45</span>
+            </div>
+            <div class="hourglass">
+                <i class="fa-solid fa-hourglass"></i>
+                <span class="timer">00:00</span>
+            </div>
+        </aside>
+        </section>
+
+        <section class="preparation">
+            <h2 class="preparation-title">PREPARATION</h2>
+            <div class="steps">
+              <div class="step">
+                 <h3>1</h3>
+                 <p>La noche anterior, pon las fabes en remojo con abundante agua. Lava el lacón o panceta para retirar el exceso de sal y déjalo también en remojo.</p>
+              </div>
+              <div class="step">
+                 <h3>3</h3>
+                 <p>Pela y corta las patatas en trozos irregulares (chascándolas para que espesen el caldo). Lava y corta la berza en tiras. Incorpora la berza y las patatas a la olla con las fabes. Cocina todo junto durante otra hora, removiendo ocasionalmente.</p>
+              </div>
+              <div class="step">
+                 <h3>2</h3>
+                 <p>En una olla grande, coloca las fabes escurridas, el hueso de jamón, el lacón, el chorizo y la morcilla. Cubre con agua fría (unos 3-4 dedos por encima de los ingredientes). Cocina a fuego lento durante 1 hora y media, desespumando (retirando la espuma) para limpiar el caldo.</p>
+              </div>
+              <div class="step">
+                 <h3>4</h3>
+                 <p>Pela y sofríe los ajos en una sartén con un poco de aceite de oliva. Agrega el sofrito a la olla para potenciar el sabor. Prueba y corrige de sal si es necesario (recuerda que el lacón y los embutidos ya son salados). Retira el hueso de jamón, el lacón, el chorizo y la morcilla. Corta los embutidos en rodajas y sírvelos junto al pote.</p>
+              </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h3 class="footer-copyright">Created by Celia Garrido</h3>
+        <div class="footer-icons">
+           <i class="fa-brands fa-linkedin" id="lk"></i>
+           <i class="fa-brands fa-instagram" id="ig"></i>
+           <i class="fa-brands fa-facebook" id="fb"></i>
+           <i class="fa-brands fa-tiktok" id="tiktok"></i>
+        </div>
+    </footer>
 </body>
 </html>
