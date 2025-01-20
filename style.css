@@ -1,0 +1,133 @@
+body {
+  background-color: rgb(0, 66, 0);
+  color: white;
+  margin: 0;
+  font-family: "Arill", sans-serif;
+}
+body header h1 {
+  font-size: 30px;
+  margin-left: 49px;
+  margin-bottom: 52px;
+  margin-top: 49px;
+}
+body header .banner {
+  width: 100%;
+  height: 284px;
+  object-fit: cover;
+  position: relative;
+  z-index: 2;
+}
+body main .content {
+  display: flex;
+  align-items: center;
+}
+body main .content .ingredients {
+  position: relative;
+  background-color: rgba(139, 0, 0, 0.841);
+  width: 550px;
+  height: 387px;
+  border-radius: 35px;
+  margin-left: 49px;
+  margin-top: -68px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body main .content .ingredients h2 {
+  font-size: 40px;
+  margin-left: 36px;
+}
+body main .content .ingredients .ingredients-list {
+  margin-left: 36px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+body main .content .ingredients .ingredients-list label {
+  font-size: 30px;
+}
+body main .content .time {
+  margin-left: 77px;
+}
+body main .content .time h2 {
+  font-size: 40px;
+}
+body main .content .time .clock {
+  font-size: 36px;
+  object-fit: cover;
+  margin-left: 6px;
+  margin-top: 30px;
+  margin-bottom: 62px;
+}
+body main .content .time .hourglass {
+  font-size: 36px;
+  object-fit: cover;
+  margin-left: 9px;
+}
+body main .content .time .timer {
+  font-size: "Arill", sans-serif;
+}
+body main .preparation .preparation-title {
+  font-size: 40px;
+  margin-left: 49px;
+  margin-top: 67px;
+}
+body main .preparation .steps {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  margin-left: 55px;
+}
+body main .preparation .steps .step {
+  display: inline-flex;
+}
+body main .preparation .steps .step h3 {
+  font-size: 30px;
+  background-color: rgba(139, 0, 0, 0.841);
+  border-radius: 5px;
+  width: 40px;
+  height: 45px;
+  text-align: center;
+  align-content: center;
+}
+body main .preparation .steps .step p {
+  font-size: 14px;
+  margin-left: 33px;
+  width: 317px;
+  height: 169px;
+  text-align: left;
+  align-content: start;
+}
+body footer {
+  width: 100%;
+  height: 56px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(139, 0, 0, 0.841);
+  color: white;
+  font-size: 14px;
+  margin-top: 56px;
+}
+body footer .footer-copyright {
+  font-size: 14px;
+  margin-left: 49px;
+}
+body footer .footer-icons {
+  font-size: 24px;
+  margin-right: 50px;
+}
+body footer .footer-icons #lk {
+  padding-left: 27px;
+}
+body footer .footer-icons #fb {
+  padding-left: 27px;
+}
+body footer .footer-icons #ig {
+  padding-left: 27px;
+}
+body footer .footer-icons #tiktok {
+  padding-left: 27px;
+}
+
+/*# sourceMappingURL=style.css.map */
